@@ -148,6 +148,4 @@ MODIFY COLUMN column_name datatype;
 ```sql
 DROP TABLE table_name;
 ```
-```
 
-Would you like any additional SQL commands included in this file, sir?
