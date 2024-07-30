@@ -1,21 +1,29 @@
-## There is three way to connect the python and SQl
+# Connecting Python to SQL Databases
 
-## Before it must be install the modules
-FOR First Code Need to install [sqlite3](https://pypi.org/project/db-sqlite3/)
-```
+## Prerequisites
+
+Before proceeding, ensure you have the necessary modules installed:
+
+### Install `sqlite3`
+```bash
 pip install db-sqlite3
 ```
-For second way to connect install [pyodbc](https://pypi.org/project/pyodbc/)
-```
+
+### Install `pyodbc`
+```bash
 pip install pyodbc
 ```
-for 3 and best code to connect need to install [pymysql](https://pypi.org/project/pysql/)
-```
+
+### Install `pymysql`
+```bash
 pip install pysql
 ```
 
+---
 
-### Using `sqlite3` for SQLite
+## 1. Using `sqlite3` for SQLite
+
+### Code Example
 
 ```python
 import sqlite3
@@ -45,7 +53,11 @@ for row in rows:
 conn.close()
 ```
 
-### Using `pyodbc` for SQL Server
+---
+
+## 2. Using `pyodbc` for SQL Server
+
+### Code Example
 
 ```python
 import pyodbc
@@ -84,7 +96,11 @@ for row in rows:
 conn.close()
 ```
 
-### Using `pymysql` for MySQL
+---
+
+## 3. Using `pymysql` for MySQL
+
+### Code Example
 
 ```python
 import pymysql
