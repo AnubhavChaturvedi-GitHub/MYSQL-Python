@@ -1,3 +1,20 @@
+## There is three way to connect the python and SQl
+
+## Before it must be install the modules
+FOR First Code Need to install [sqlite3](https://pypi.org/project/db-sqlite3/)
+```
+pip install db-sqlite3
+```
+For second way to connect install [pyodbc](https://pypi.org/project/pyodbc/)
+```
+pip install pyodbc
+```
+for 3 and best code to connect need to install [pymysql](https://pypi.org/project/pysql/)
+```
+pip install pysql
+```
+
+
 ### Using `sqlite3` for SQLite
 
 ```python
